@@ -1,7 +1,7 @@
-class AddCatchphraseToActors < ActiveRecord::Migration[4.2]
+class AddCatchphraseToCharacters < ActiveRecord::Migration[4.2]
 
   def change
-    add_column :actors, :catchphrase, :text
+    add_column :characters, :catchphrase, :text
   end
 
 end
