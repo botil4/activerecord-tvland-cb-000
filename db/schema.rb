@@ -10,12 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 6) do
+ActiveRecord::Schema.define(version: 5) do
 
   create_table "actors", force: :cascade do |t|
     t.text "first_name"
     t.text "last_name"
-    t.text "catchphrase"
   end
 
   create_table "characters", force: :cascade do |t|
